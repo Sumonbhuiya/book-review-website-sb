@@ -8,7 +8,7 @@ In the site, you can see:
 
 ### `Uses React DOM`
 
-We uns the app using react dom.\
+We runs the app using react dom.\
 Open [live site](https://review-website-sumon.netlify.app/) to view it in the browser.
 
 The page will take some times because of data loading or network issues.
