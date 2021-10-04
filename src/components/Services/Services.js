@@ -7,7 +7,7 @@ const Services = () => {
     const [services] = useServices();
 
     return (
-        <div className="p-6 w-4/5 m-auto bg-gray-300">
+        <div className="p-6 w-4/5 m-auto bg-gray-300 my-6">
             {/* service section  */}
             <h2 className="text-3xl pb-6 font-thin">Courses Starting Soon</h2>
             <div className="grid grid-cols-3 gap-8">

@@ -13,10 +13,22 @@ const Header = () => {
                 {/* header nav links  */}
                 <div className="pl-10 text-xl text-indigo-900">
                     <nav>
-                        <NavLink className="m-6 text-2xl no-underline text-white" to="/home">Home</NavLink>
-                        <NavLink className="m-6 text-2xl no-underline text-white" to="/service">Services</NavLink>
-                        <NavLink className="m-6 text-2xl no-underline text-white" to="/about">About</NavLink>
-                        <NavLink className="m-6 text-2xl no-underline text-white" to="/teacher">Teachers</NavLink>
+                        <NavLink activeStyle={{
+                            textDecoration: "underline",
+                            color: "darkorange"
+                        }} className="m-6 text-2xl no-underline text-white" to="/home">Home</NavLink>
+                        <NavLink activeStyle={{
+                            textDecoration: "underline",
+                            color: "darkorange"
+                        }} className="m-6 text-2xl no-underline text-white" to="/service">Services</NavLink>
+                        <NavLink activeStyle={{
+                            textDecoration: "underline",
+                            color: "darkorange"
+                        }} className="m-6 text-2xl no-underline text-white" to="/about">About</NavLink>
+                        <NavLink activeStyle={{
+                            textDecoration: "underline",
+                            color: "darkorange"
+                        }} className="m-6 text-2xl no-underline text-white" to="/teacher">Teachers</NavLink>
                     </nav>
                 </div>
             </div>

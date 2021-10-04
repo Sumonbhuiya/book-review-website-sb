@@ -12,7 +12,9 @@ const About = () => {
                 <p className="py-6">If you want to know about programming languages work <NavLink to="/info" className="text-blue-500">Click here</NavLink></p>
             </div>
             {/* call contact components  */}
-            <Contact></Contact>
+            <div className="p-10">
+                <Contact></Contact>
+            </div>
         </div>
     );
 };
