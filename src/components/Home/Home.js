@@ -7,8 +7,10 @@ const Home = () => {
     const [services] = useServices();
     return (
         <div>
+            {/* import plans component  */}
             <Plans></Plans>
             <div className="p-6 w-4/5 m-auto bg-gray-300">
+                {/* added some courses by using map from data */}
                 <h2 className="text-3xl pb-6 font-thin">For you</h2>
                 <div className="grid grid-cols-3 gap-8">
                     {

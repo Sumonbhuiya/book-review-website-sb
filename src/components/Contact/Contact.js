@@ -2,6 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
+        // given contact details 
         <div className="bg-gray-600 p-10">
             <h1 className="text-6xl pb-8 text-white font-bold">LEARNING CENTER</h1>
             <div className="flex justify-evenly p-5">

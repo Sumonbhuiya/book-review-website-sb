@@ -6,9 +6,11 @@ const Header = () => {
     return (
         <div className="flex items-center  bg-black justify-evenly">
             <div className="flex items-center">
+                {/* header logo  */}
                 <div className="flex items-center">
                     <img className="h-24 w-36" src={logo} alt="" />
                 </div>
+                {/* header nav links  */}
                 <div className="pl-10 text-xl text-indigo-900">
                     <nav>
                         <NavLink className="m-6 text-2xl no-underline text-white" to="/home">Home</NavLink>

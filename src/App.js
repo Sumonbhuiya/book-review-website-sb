@@ -12,9 +12,12 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
+      {/* router dom  */}
       <Router>
+        {/* header  */}
         <Header></Header>
         <Switch>
+          {/* all path one by one  */}
           <Route exact path="/">
             <Home></Home>
           </Route>
@@ -37,6 +40,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        {/* footer  */}
         <Footer></Footer>
       </Router>
     </div>
