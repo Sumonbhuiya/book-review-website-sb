@@ -7,7 +7,7 @@ const HomeCourse = (props) => {
         // service cart 
         <div className="p-3 rounded-md border border-gray-200 bg-gray-100">
             {/* header  */}
-            <div className="h-75 bg-black">
+            <div className="bg-black">
                 <img className="h-50 w-100% m-auto " src={pic} alt="" />
                 <h3 className="text-white m-auto text-2xl">introduction to {name}</h3>
             </div>
