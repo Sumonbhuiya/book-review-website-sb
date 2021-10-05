@@ -15,11 +15,13 @@ const HomeCourse = (props) => {
             <div className=" pt-2 px-5 flex">
                 <div className="text-left">
                     <h4 className="text-2xl text-blue-600 font-bold">{name}</h4>
-                    <p><small className="text-gray-500 pt-5">Teacher: <NavLink to="/teacher" className="bg-yellow-200">{teacher.name}</NavLink></small></p>
-                    <p><small className="text-gray-500">Start Date: {date}</small></p>
+                    <div className="p-3">
+                        <p><small className="text-xl text-gray-500">Teacher: <NavLink to="/teacher" className="bg-yellow-200">{teacher.name}</NavLink></small></p>
+                        <p><small className="text-gray-500">Class Start: {date}</small></p>
+                    </div>
                 </div>
                 <div className="m-auto pl-8">
-                    <p className="text-3xl text-gray-700 hover:text-blue-500">${cost}</p>
+                    <p className="text-3xl text-gray-700 hover:text-red-600">${cost}</p>
                 </div>
             </div>
             {/* footer or button  */}
